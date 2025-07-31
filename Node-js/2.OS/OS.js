@@ -1,0 +1,11 @@
+const OS=require('os');
+console.log(OS.homedir());
+console.log(OS.totalmem());
+console.log(OS.platform());
+console.log(OS.freemem());
+console.log(OS.arch());
+console.log(OS.hostname());
+console.log(OS.networkInterfaces());
+console.log(OS.tmpdir());
+console.log(OS.uptime());
+console.log(OS.cpus());
